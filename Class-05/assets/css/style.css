@@ -1,0 +1,417 @@
+/* 
+  Titu Mollick
+  https://titumallick.com/ 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.header_part_top {
+  height: 160px;
+  background: #FDFDFD;
+}
+.containet {
+  padding: 0 100px;
+}
+.header_left img{height: 110px;
+  width: 260px;
+  margin-top: 30px;
+}
+.heaher_right {
+  text-align: right;
+  margin-top: -100px;
+}
+.right_head h2{font-size: 30px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.head_contact button{
+  height: 40px;
+  width: 270px;
+  border-radius: 4px; 
+  background: #0d6196;
+  margin: 10px 0;
+}
+.head_contact button:hover {
+  background: #064f7c;
+}
+.head_contact a{
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 700; 
+  text-decoration: none;
+}
+/* Header Dropdown Part */
+.header_menu {
+  height: 50px;
+  background: #131212;
+  border-bottom: 4px solid #078E22; 
+  padding: 0 110px;
+}
+.dropdown ul li{float: left;
+  justify-content: center;
+  list-style: none;
+  margin-top: 15px;
+}
+.dropdown ul li a{color: #FDFDFD;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px;
+}
+.dropdown ul li:hover a{
+  color: #E1E105;
+  text-decoration: underline;
+}
+.header_cart {
+  text-align: right;
+  margin-right: -10px;
+}
+.btn_cart {
+  height: 45px;
+  width: 120px;
+  margin-top: 2px;
+  border: 1px solid rgb(192, 191, 191);
+  background: none;
+}
+.btn_cart:hover {
+  background: #2f7cac9a;
+}
+.btn_cart a{
+  color: rgb(192, 191, 191);
+  font-weight: 900;
+}
+/* Hero Part Start */
+.hero_part {
+  background-image: url(../img/home_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.hero_section {
+  background: rgba(250, 234, 9, 0.2);
+  height: 100%;
+}
+.hero_containet {
+  text-align: center; 
+  padding: 100px 270px;
+}
+.hero_head h1{
+  font-size: 65px;
+  padding: 20px 0;
+}
+/* Services Part Start */
+
+/* .Completely_halal-oberlay {padding: 40px 110px;} */
+.Completely_halal_main {
+  text-align: center;
+  border: 2px solid #3A3A3A;
+  padding: 50px;
+  margin: 40px 110px;
+}
+.Completely_halal_head h2{
+  color: #037D1C;
+  font-size: 40px;
+  padding: 15px 0 30px 0;
+}
+.Completely_halal_head ul{
+  padding-left: 70px;
+}
+.Completely_halal_head ul li{
+  text-align: left;
+  padding: 6px 0;
+  color: #037D1C;
+  list-style-type: square;
+}
+.Completely_halal_head ul li:hover {
+  color: #F66B33;
+}
+.Completely_halal_head ul li a{
+  text-decoration: none;
+  color: #202020;
+}
+/* Experience Part Start */
+.Experience_containt {
+  padding: 110px;
+}
+/* .count_head {float: left;} */
+.Exper_head h2{
+  line-height: 1.5em;
+  font-size: 60px;
+}
+.Exper_line {
+  height: 2px;
+  width: 55px;
+  background: #037D1C;
+}
+.Exper_number {
+  padding-left: 400px;
+  margin-top: -180px;
+}
+.Experience_box {
+  border: 1px solid #037D1C;
+  height: 180px;
+  width: 220px;
+  text-align: center;
+  float: left;
+  margin-left: 15px;
+}
+.Exper_number h4{
+  font-size: 65px;
+  padding-top: 30px;
+}
+.Exper_number p{
+  font-weight: 700;
+  color: #8a4141;
+}
+/* Services Part Start */
+.service_part {
+  clear: both;
+  padding: 80px 0;
+}
+/* .service_container {margin: 100px 0;} */
+.service_con {
+  text-align: center;
+  padding: 0 290px;
+}
+.service_head h2{
+  font-size: 48px;
+  color: #F66B33;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 30px 0;
+}
+.service_head p{
+  line-height: 2;
+  font-size: 18px;
+}
+/* Part */
+.serv_main {
+  padding: 20px 90px;
+  text-align: center;
+  margin: 10px 0;
+  clear: both;
+}
+.serv_head {
+  height: 400px;
+  width: 300px;
+  background: #F8F8F8;
+  padding: 50px 25px;
+  float: left;
+  margin: 0 10px;
+}
+.serv_height {
+  height: 550px;
+}
+.serv_head h4{
+  font-size: 20px;
+  padding: 20px 0;
+}
+.serv_head p{
+  font-size: 14px;
+  color: #555555;
+  line-height: 2;
+}
+.serv_btn {
+  padding-top: 50px;
+}
+.serv_btn button{
+  border: none;
+  background: none;
+}
+.serv_btn a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #1C7FBC;
+  font-weight: 600;
+  letter-spacing: .5em;
+}
+/* 
+  Titu Mollick
+  https://titumallick.com/ 
+*/
+/* About Part Start */
+.about_part {
+  clear: both;
+  margin: 50px 0;
+  background-image: url(../img/bangladesh-tuvsud-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 820px;
+}
+.about_oberlay {
+  margin: 150px 50px;
+  background: rgba(64, 157, 219,0.9);
+  padding: 130px;
+}
+.about_con {
+  text-align: center;
+}
+.about_head h2{
+  font-size: 55px;
+  letter-spacing: 0.2em;
+  padding-bottom: 35px;
+  color: #FAFCFD;
+}
+.about_head p{
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: #FAFCFD;
+  line-height: 2;
+}
+.about_btn {
+  padding-top: 35px;
+}
+.about_btn button{
+  background: none;
+  border: none;
+}
+.about_btn a{
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FDFDFD;
+  text-decoration: none;
+}
+/* Blog Part Start */
+.blog_part{
+  padding: 50px 100px;
+}
+.blog_head h2{
+  text-align: center;
+  font-size: 48px;
+  color: #F66B33;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 30px 0;
+}
+.blog_img {
+  height: 510px;
+  width: 350px;
+  background: #F8F8F8;
+  float: left;
+  margin: 10px;
+}
+.blog_img:hover {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+}
+.blog_img img{
+  width: 350px;
+}
+.blog_title h4{
+  font-size: 20px;
+  color: #202020;
+  padding: 20px;
+}
+.blog_title p{
+  font-size: 14px;
+  color: #777;
+  padding: 10px 20px;
+}
+.blog_btn button{
+  padding: 20px;
+  border: none;
+  background: none;
+}
+.blog_btn a{
+  text-decoration: none;
+  font-size: 13px;
+  color: #61CE70;
+  font-weight: 600;
+}
+.blog_comment {
+  height: 45px;
+  width: 350px;
+  background: #f8f8f8;
+  border-top: 1px solid rgb(58, 58, 58);
+}
+.blog_comment p{
+  padding: 10px 20px;
+  color: #D5D5E2;
+  font-style: 13px;
+}
+.blog_main {
+  clear: both;
+}
+.mt {
+  margin-top: 60px;
+}
+.blog_button {
+  clear: both;
+  padding-top: 50px;
+  text-align: center;
+}
+.button_btn button{
+  height: 50px;
+  width: 200px;
+  background: #01871B;
+  border: none;
+}
+.button_btn button:hover {
+  background: #10942a;
+  padding-right: 25px;
+  opacity: 1;
+  right: 0;
+  cursor: pointer;
+}
+.button_btn a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #FDFDFD;
+  font-weight: 800;
+}
+/* Footer Part Start */
+.footer_part {
+  clear: both;
+  padding-top: 50px;
+}
+.footer_top {
+  background: #151515;
+  padding: 100px 100px;
+  border-bottom: 1px solid red;
+}
+.footer_head h3{
+  font-size: 28px;
+  color: #FAE400;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.footer_text {
+  padding-top: 30px;
+}
+.footer_text p{
+  font-size: 15px;
+  color: #FDFDFD;
+  line-height: 2;
+}
+.footer_text p:hover {
+  text-decoration: underline;
+}
+.title_02 {
+  float: right;
+  margin-top: -160px;
+}
+.footer_con {
+  clear: both;
+  background: #151515;
+  border-bottom: 1px solid red;
+  text-align: center;
+  padding: 20px 0;
+}
+.copyright_area p{
+  text-align: center;
+  font-style: 16px;
+  background: #151515;
+  font-weight: 500;
+  color: #FDFDFD;
+  padding: 8px 10px;
+}
+/* Footer Part End */
+/* 
+  Titu Mollick
+  https://titumallick.com/ 
+*/
